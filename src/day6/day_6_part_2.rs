@@ -69,9 +69,10 @@ mod test {
     }
 
     // Disabled because it is slow
-    fn test_day_6_part_2() {
-        let result = day_6_part_2(include_bytes!("../data/day_6_input.txt"));
-
-        assert_eq!(result, 1711);
-    }
+    // #[test]
+    // fn test_day_6_part_2() {
+    //     let result = day_6_part_2(include_bytes!("../data/day_6_input.txt"));
+    //
+    //     assert_eq!(result, 1711);
+    // }
 }
