@@ -8,10 +8,10 @@ pub fn day_2_compact(data: &Vec<i64>) -> Vec<i64> {
 
     let mut file_pos = result.len() - 1;
     for id in (0..=last_id).rev() {
-        while result[file_pos] != id && file_pos > 0{
+        while result[file_pos] != id && file_pos > 0 {
             file_pos -= 1;
         }
-        while result[file_pos] == id && file_pos > 0{
+        while result[file_pos] == id && file_pos > 0 {
             file_pos -= 1;
         }
         file_pos += 1;
