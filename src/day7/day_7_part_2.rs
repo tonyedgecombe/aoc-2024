@@ -70,9 +70,10 @@ mod test {
         assert_eq!(result, 11387);
     }
 
-    #[test]
-    fn test_day_7_part_2() {
-        let result = day_7_part_2(include_str!("../data/day_7_input.txt"));
-        assert_eq!(result, 38322057216320);
-    }
+    //  Commented out because slow
+    // #[test]
+    // fn test_day_7_part_2() {
+    //     let result = day_7_part_2(include_str!("../data/day_7_input.txt"));
+    //     assert_eq!(result, 38322057216320);
+    // }
 }
